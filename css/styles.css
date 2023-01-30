@@ -1,0 +1,144 @@
+.top-container{
+    background-color: #bfeaf5;
+    padding: 20px;
+    position: relative;
+}
+p{
+    line-height: 2;
+}
+.skill-row{
+    width:50%;
+    margin: 100px auto;
+    text-align: left;
+    
+}
+
+body{
+    margin: 0px;
+    text-align: center;
+    font-family: 'Merriweather',sans-serif;
+    color: #40514e;
+
+}
+.heading{
+    /*margin-top: 0 auto 0 auto;*/
+    /*instesd of using text-align : centre in body tag we can use this tag
+    text-aglign : center tag as some limitations
+    like it will apply to only full width or inline elements
+    if we resitict with to some x% then it iwll not work
+    so it is, better thing */
+    
+    font-family: 'Sacramento', cursive;
+    margin: 115px auto auto auto;
+    font-size: 450%;
+    color: #66bfbf;
+    line-height: 2;
+    
+}
+.heading1{
+    margin-bottom: 100px;
+}
+h2{
+    font-family: 'Merriweather',sans-serif ;
+    color: #66bfbf;
+    font-weight:500 ;
+    font-size: xx-large;
+    padding-bottom: 10px;
+    
+}
+h3{
+    font-family: 'Merriweather',sans-serif ;
+    color: #11999E;
+    
+}
+.middle-container{
+    padding-top: 100px;
+}
+hr{
+
+    border: dotted #eaf6f6 6px;
+    width: 4%;
+    border-bottom: none;
+}
+.top-cloud{
+    position: absolute;
+    right : 300px;
+    top : 50px;
+    
+}
+.bottom-cloud{
+    position: absolute;
+    left : 300px;
+    top:350px 
+}
+.computer{
+    width :25%;
+    float: left;
+    margin-right: 20px;
+    
+}
+.chillies{
+    width:25%;
+    float: right;
+    margin-left: 10px;
+}
+.h31{
+    margin-top: 200px;
+}
+.intro{
+    width:30%;
+    text-align: center;
+    margin: auto;
+}
+.contact-message{
+    width:30%;
+    margin: 40px auto;
+}
+.btn {
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: 'Merriweather',sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+  }
+.contact-me{
+    margin: 20px 20px 20px 20px;
+}
+.bottom-container{
+    background-color: #66bfbf;
+    padding: 50px 0px 20px;
+}
+a{
+    color: #11999E;
+    font-family: 'Merriweather',sans-serif;
+    margin: 20px;
+}
+a:hover{
+    color:#eaf6f6;
+    text-decoration: none;
+}
+.copyright{
+    color: #eaf6f6;
+    font-size:0.75rem;
+}
+
+
